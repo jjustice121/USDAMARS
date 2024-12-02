@@ -10,5 +10,5 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports:
-      httr
-      jsonlite
+      httr(>= 1.4.7),
+      jsonlite(>= 1.8.9)
