@@ -2,7 +2,7 @@
 #'
 #' @description This function sets a variable in the R environment for your MARS API Key
 #'
-#' @param key your API Key obtained from (https://mymarketnews.ams.usda.gov/mymarketnews-api)
+#' @param key Your API Key obtained from (https://mymarketnews.ams.usda.gov/mymarketnews-api)
 #'
 #' @examples
 #' #set your API Key
