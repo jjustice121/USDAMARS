@@ -15,7 +15,7 @@ The `USDAMARS` package provides access to the report data in MARS through R. All
 
   - slugid: Users can request data based on slugid. For example, users can request data from the report of "Dry Whey - Europe" by setting the slugid equal to 1034.
 
-The `USDAMARS` package also contains a function called `MARS_Table_Directory` which pulls a data set with details(e.g., slugid, report frequency, and publication date) for all of the USDA Market News reports.
+The `USDAMARS` package also contains a function called `MARS_Table_Directory` which pulls a data set with details (e.g., slugid, report frequency, and publication date) for all of the USDA Market News reports.
 
 # Examples
 Below are some examples for the functions above should be used.
