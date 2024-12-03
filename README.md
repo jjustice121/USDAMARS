@@ -22,7 +22,7 @@ Below are some examples for the functions above should be used.
 
 Example 1: Setting your API Key
         
-          MARS_API_Key("YOUR API Key")
+          MARS_API_Key("YOUR API KEY")
 
 Example 2: Retrieving the Table Directory
 
