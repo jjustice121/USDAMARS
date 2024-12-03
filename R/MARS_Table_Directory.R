@@ -16,7 +16,7 @@ MARS_Table_Directory <- function(){
 
   MARS_Reports <- httr::GET(MARS_EndPt_Svcs,httr::authenticate(user = Sys.getenv("MARS_API_KEY"), password = "", type = "basic"))
 
-  Data <- jsonlite::fromJSON(rawToChar(MMN_Reports$content))
+  Data <- jsonlite::fromJSON(rawToChar(MARS_Reports$content))
 
   return(Data)
 
