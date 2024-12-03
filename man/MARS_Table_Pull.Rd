@@ -4,17 +4,21 @@
 \alias{MARS_Table_Pull}
 \title{MARS_Table_Pull}
 \usage{
-MARS_Table_Pull(slugid)
+MARS_Table_Pull(slugid, section, date)
 }
 \arguments{
-\item{slugid}{the slug id for the report containing the data you want to pull}
+\item{slugid}{The slug id for the report containing the data you want to pull}
+
+\item{section}{Optional, the report section}
+
+\item{date}{Optional, the report date or range of dates}
 }
 \description{
-This function pulls a dataframe for a single report/slug id based on user input.
+This function pulls a dataframe for a single report/slug id.
 }
 \examples{
 #Pull the report/table directory
-Df <- MARS_Table_Pull(slugid)
+Df <- MARS_Table_Pull(slugid, section, date)
 
 
 }

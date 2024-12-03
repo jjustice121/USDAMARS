@@ -7,7 +7,7 @@
 MARS_API_Key(key)
 }
 \arguments{
-\item{key}{your API Key obtained from (https://mymarketnews.ams.usda.gov/mymarketnews-api)}
+\item{key}{Your API Key obtained from (https://mymarketnews.ams.usda.gov/mymarketnews-api)}
 }
 \description{
 This function sets a variable in the R environment for your MARS API Key
