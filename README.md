@@ -1,8 +1,8 @@
 # USDAMARS
-#Background
+# Background
 The USDA Market News program has reported on price and sales information to assist in the marketing and distribution of agricultural commodities for over 100 years.
 
-#Usage Description
+# Usage Description
 The USDAMARS package provides access to the report data in MARS through R. All data available in MARS is can be obtained using the USDAMARS package.
 
 MARS_API_Key is the function used to set your API key for the current R session
