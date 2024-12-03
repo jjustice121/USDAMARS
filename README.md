@@ -1,4 +1,4 @@
-# USDAMARS: Obtain current and historical USDA-AMS Market News Data
+# USDAMARS: Obtain USDA-AMS Market News Data
 # Background
 The USDA Market News program has reported on price and sales information to assist in the marketing and distribution of agricultural commodities for over 100 years.
 
