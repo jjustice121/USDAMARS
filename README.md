@@ -21,4 +21,4 @@ The USDAMARS package provides access to the report data in MARS through R. All d
 Below are some examples for the functions above
 
 Example 1: Setting your API Key
-  -MARS_API_Key("YOUR API Key")
+        -MARS_API_Key("YOUR API Key")
