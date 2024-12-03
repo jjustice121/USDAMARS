@@ -1,6 +1,6 @@
 #' @title MARS_Table_Pull
 #'
-#' @description This function pulls a dataframe for all of the reports, their corresponding slug ids , and relevant metadata.
+#' @description This function pulls a dataframe for a single report/slug id based on user input.
 #'
 #' @param slugid the slug id for the report containing the data you want to pull
 #'
