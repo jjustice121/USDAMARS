@@ -36,3 +36,7 @@ Example 3: Retrieving a Table/Report
 Currently, the package is only available through GitHub and can be installed using the code below
           
           devtools::install_github("jjustice121/USDAMARS")
+
+Note: You need to install the `devtools` package before you can install the `USDAMARS` package
+
+          install.packages("devtools")
