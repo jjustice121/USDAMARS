@@ -7,22 +7,22 @@ The `USDAMARS` package provides access to the report data in MARS through R. All
 
 `MARS_API_Key` is the function used to set your API key for the current R session
 
-  - `MARS_API_Key` takes a single input, your API key [obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api]
+  - `MARS_API_Key` takes a single input, your API key (obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api)
 
 `MARS_Table_Pull` is the primary function in the USDAMARS package for making data requests.
 
   - `MARS_Table_Pull` takes a single input, the slugid.
 
-  - slug ID: Users can request data based on slugid. For example, users can request data from the report of "Dry Whey - Europe" by setting the slugid equal to 1034.
+  - slugid: Users can request data based on slugid. For example, users can request data from the report of "Dry Whey - Europe" by setting the slugid equal to 1034.
 
-The `USDAMARS` package also contains a function called `MARS_Table_Directory` which pulls a data set with details(e.g., slugid, report frequency, and publication date) for all of the USDA Market News reports.
+The `USDAMARS` package also contains a function called `MARS_Table_Directory` which pulls a data set with details (e.g., slugid, report frequency, and publication date) for all of the USDA Market News reports.
 
 # Examples
 Below are some examples for the functions above should be used.
 
 Example 1: Setting your API Key
         
-          MARS_API_Key("YOUR API Key")
+          MARS_API_Key("YOUR API KEY")
 
 Example 2: Retrieving the Table Directory
 
@@ -38,3 +38,4 @@ Currently, the package is only available through GitHub and can be installed usi
           devtools::install_github("jjustice121/USDAMARS")
 
 Note: You need to install the `devtools` package before you can install the `USDAMARS` package using `install.packages("devtools")`.
+
