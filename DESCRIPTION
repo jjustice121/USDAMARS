@@ -12,3 +12,4 @@ LazyData: true
 Imports:
       httr(>= 1.4.7),
       jsonlite(>= 1.8.9)
+RoxygenNote: 7.3.2
