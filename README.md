@@ -7,12 +7,12 @@ The USDAMARS package provides access to the report data in MARS through R. All d
 
 1. MARS_API_Key is the function used to set your API key for the current R session
 
-          -MARS_API_Key takes a single input, your API key [obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api]
+   -MARS_API_Key takes a single input, your API key [obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api]
 
 2. MARS_Table_Pull is the primary function in the USDAMARS package for making data requests.
 
-          -MARS_Table_Pull takes a single input, the slug ID.
+   -MARS_Table_Pull takes a single input, the slug ID.
 
-          -slug ID: Users can request data based on slug ID. For example, users can request data from the report of "Dry Whey - Europe" by setting the slug ID equal to 1034.
+   -slug ID: Users can request data based on slug ID. For example, users can request data from the report of "Dry Whey - Europe" by setting the slug ID equal to 1034.
 
 3. The USDAMARS package also contains a function called MARS_Table_Directory which pulls a data set with details(e.g., slug ID, report frequency, and publication date) for all of the USDA Market News reports.
