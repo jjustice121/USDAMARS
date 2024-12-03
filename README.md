@@ -32,6 +32,10 @@ Example 3: Retrieving a Table/Report
 
           Report <- MARS_Table_Pull(slugid = 1034)
 
+Example 4: Retrieving a Table/Report with Section and Date
+
+          Report <- MARS_Table_Pull(slugid = 3668, section = "Report Detail", date = "09/30/2024")
+
 # Installation
 Currently, the package is only available through GitHub and can be installed using the code below
           
