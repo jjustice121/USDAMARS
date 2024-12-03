@@ -11,9 +11,11 @@ The `USDAMARS` package provides access to the report data in MARS through R. All
 
 `MARS_Table_Pull` is the primary function in the USDAMARS package for making data requests.
 
-  - `MARS_Table_Pull` takes a single input, the slugid.
+  - `MARS_Table_Pull` takes three inputs, the slugid (required), the report section (optional) and, the date/date range (optional).
 
   - slugid: Users can request data based on slugid. For example, users can request data from the report of "Dry Whey - Europe" by setting the slugid equal to 1034.
+  - section: Users can choose the section of a report, such as "Report Detail" by setting section equal to "Report Detail".
+  - date: Users can choose the date of a report, such as "09/30/2024" or range of dates "09/30/2024:11/01/2024" by setting date equal to "09/30/2024" or "09/30/2024:11/01/2024".
 
 The `USDAMARS` package also contains a function called `MARS_Table_Directory` which pulls a data set with details (e.g., slugid, report frequency, and publication date) for all of the USDA Market News reports.
 
