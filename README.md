@@ -31,3 +31,7 @@ Example 2: Retrieving the Table Directory
 Example 3: Retrieving a Table/Report
 
           Report <- MARS_Table_Pull(slugid = 1034)
+
+# Installation
+Currently, the package is only available through GitHub and can be installed using the code below
+          install_github("jjustice121/USDAMARS")
