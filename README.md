@@ -34,4 +34,5 @@ Example 3: Retrieving a Table/Report
 
 # Installation
 Currently, the package is only available through GitHub and can be installed using the code below
+          
           install_github("jjustice121/USDAMARS")
