@@ -5,7 +5,7 @@ The USDA Market News program has reported on price and sales information to assi
 # Usage Description
 The USDAMARS package provides access to the report data in MARS through R. All data available in MARS is can be obtained using the USDAMARS package.
 
-1. MARS_API_Key is the function used to set your API key for the current R session
+1. `MARS_API_Key` is the function used to set your API key for the current R session
 
   - MARS_API_Key takes a single input, your API key [obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api]
 
