@@ -37,6 +37,4 @@ Currently, the package is only available through GitHub and can be installed usi
           
           devtools::install_github("jjustice121/USDAMARS")
 
-Note: You need to install the `devtools` package before you can install the `USDAMARS` package
-
-          install.packages("devtools")
+Note: You need to install the `devtools` package before you can install the `USDAMARS` package using install.packages("devtools").
