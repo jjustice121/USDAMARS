@@ -7,7 +7,7 @@ The `USDAMARS` package provides access to the report data in MARS through R. All
 
 `MARS_API_Key` is the function used to set your API key for the current R session
 
-  - `MARS_API_Key` takes a single input, your API key obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api
+  - `MARS_API_Key` takes a single input, your API key (obtained here: https://mymarketnews.ams.usda.gov/mymarketnews-api)
 
 `MARS_Table_Pull` is the primary function in the USDAMARS package for making data requests.
 
