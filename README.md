@@ -18,7 +18,8 @@ The USDAMARS package provides access to the report data in MARS through R. All d
 3. The USDAMARS package also contains a function called MARS_Table_Directory which pulls a data set with details(e.g., slug ID, report frequency, and publication date) for all of the USDA Market News reports.
 
 # Examples
-Below are some examples for the functions above
+Below are some examples for the functions above.
 
 Example 1: Setting your API Key
-        -MARS_API_Key("YOUR API Key")
+        
+          -MARS_API_Key("YOUR API Key")
