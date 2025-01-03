@@ -6,6 +6,7 @@
 #'
 #' @examples
 #' #set your API Key
+#'
 #' MARS_API_Key(key = "Your API Key")
 #'
 

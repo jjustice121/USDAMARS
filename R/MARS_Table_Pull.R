@@ -7,8 +7,20 @@
 #' @param date Optional, the report date or range of dates
 #'
 #' @examples
+#'
 #' #Pull the report/table directory
+#'
+#' General Function Form:
+#'
 #' Df <- MARS_Table_Pull(slugid, section, date)
+#'
+#' Example 1, Slugid:
+#'
+#' Df1 <- MARS_Table_Pull(slugid = 1034)
+#'
+#' Example 2, All Arguments:
+#'
+#' Df2 <- MARS_Table_Pull(slugid = 3668, section = "Report Detail", date = "09/30/2024")
 #'
 #'
 
